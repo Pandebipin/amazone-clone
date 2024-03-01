@@ -1,0 +1,48 @@
+body{
+  background-color: #EAEDED
+}
+.checkout{
+  width: 100%;
+  height: 100%;
+}
+
+.checkout .left{
+  margin-top: 0;
+  width: 65%;
+  background-color: #fff;
+  float: left;
+  max-height: 100%;
+}
+
+.checkout .right{
+  width: 25%;
+  float: right;
+}
+.checkout-title{
+  padding: 10px;
+  margin-left: .5em;
+  border-bottom: 1px solid gray;
+  white-space: nowrap;
+  
+}
+.subtotal{
+  margin-top: 10px;
+
+}
+.title{
+  float: right;
+  padding-right: 8rem;
+}
+img{
+  width: 250px;
+  height: 200px;
+  gap: 1rem;
+  float: left;
+}
+.img-box{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  
+  padding-left: 4rem;
+}
